@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
     academic: { label: "Academic", color: "#e3f2fd", textColor: "#1565c0" },
     community: { label: "Community", color: "#fff3e0", textColor: "#e65100" },
     technology: { label: "Technology", color: "#e8eaf6", textColor: "#3949ab" },
+    manga: { label: "Manga", color: "#ffe0f0", textColor: "#d81b60" },
   };
 
   // State for activities and filters
@@ -357,7 +358,14 @@ document.addEventListener("DOMContentLoaded", () => {
       desc.includes("robot")
     ) {
       return "technology";
-    }
+    } else if (
+      name.includes("manga") ||
+      name.includes("anime") ||
+      desc.includes("manga") ||
+      desc.includes("anime")
+      ) {
+      return "manga";
+      } 
 
     // Default to "academic" if no match
     return "academic";
