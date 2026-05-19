@@ -153,7 +153,7 @@ initial_activities = {
         "max_participants": 18,
         "participants": ["isabella@mergington.edu", "lucas@mergington.edu"]
     },
-        "Sunday Chess Tournament": {
+    "Sunday Chess Tournament": {
         "description": "Weekly tournament for serious chess players with rankings",
         "schedule": "Sundays, 2:00 PM - 5:00 PM",
         "schedule_details": {
@@ -164,7 +164,6 @@ initial_activities = {
         "max_participants": 16,
         "participants": ["william@mergington.edu", "jacob@mergington.edu"]
     },
-
     "Manga Maniacs": {
         "description": "Dive into the exciting world of Japanese Manga, discover unforgettable heroes and villains, and share your favorite stories with fellow fans!",
         "schedule": "Tuesdays, 5:00 PM - 6:00 PM",
